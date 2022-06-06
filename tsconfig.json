@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "outDir": "build",
+        "target": "esnext",
+        "noEmit": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "module" : "CommonJS" //To compile js files
+        
+    },
+    "include": ["src/**/*"]
+
+}
+
