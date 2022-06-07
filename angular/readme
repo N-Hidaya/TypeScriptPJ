@@ -1,0 +1,51 @@
+type 'gulp' in terminal
+
+AngularJS features:
+- Directives
+- MVC
+- Data Binding (2-way)
+- Expressions
+
+AngularJS vs Angular
+- Different paradigm
+- MVC vs components
+- More stable
+- Less tooling
+
+Binding
+- Declare your ng-app
+- AngularJS directives
+- ng-model directive
+- {{}} expression
+
+Working with modules
+- module(), ng-app
+- controller(), ng-controller
+- $scope
+
+Booleans and Loops
+- ng-show, ng-hide
+- ng-if
+- ng-repeat
+
+AngularJS Services
+- $http
+- Runs with a server
+
+Basic Filters
+- currency
+- number
+- date
+- lowercase, uppercase
+- Use | and : characters
+
+Array Filters
+- limitTo:qty:start
+- filter:keyword
+- orderBy:key:reverse
+
+Deep Linking
+- ngRoute
+- $routeProvider
+- ng-view
+- Defining controllers
