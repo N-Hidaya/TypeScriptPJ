@@ -1,0 +1,6 @@
+Command to install typescript: npm install typescript -g
+
+Commands to add jquery type. Search in npm site for commands
+npm install --save @types/jquery
+
+npm install --save @types/angular

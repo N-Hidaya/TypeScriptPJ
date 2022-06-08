@@ -1,8 +1,3 @@
-interface Contact {
-    id: number;
-    name: string;
-    birthDate?: ContactBirthDate;
-}
 
 function getBirthDate(contact: Contact) {
     if (typeof contact.birthDate === "number") {
@@ -15,6 +10,8 @@ function getBirthDate(contact: Contact) {
         return contact.birthDate            
     }
 }
+
+
 function clone<T1, T2>(source: T1): T2 {
     return Object.apply({}, source);
 }
@@ -22,8 +19,7 @@ function clone<T1, T2>(source: T1): T2 {
 const ori: Contact = {id: 123, name: "Homer Simpson"};
 const fake = clone<Contact, Date>(ori)
 
-//COMBINING MULTIPLE TYPES WITH UNION TYPES
-type ContactBirthDate = Date | number | string
+
 
 //use & to combine and create new type
 type AddressableContact = Contact & Address

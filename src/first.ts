@@ -1,9 +1,4 @@
 
-//Command to install typescript: npm install typescript -g
-
-//Commands to add jquery type. Search in npm site for commands
-//npm install --save @types/jquery
-
 //to define variables
 let x: number
 let y: string
@@ -23,7 +18,8 @@ interface Address {
 interface Contact extends Address{
     id: number;
     name: ContactName;
-    status?: ContactStatus
+    status?: ContactStatus;
+    birthDate?: ContactBirthDate;
 }
 //use question marks when not required/optional
 
@@ -45,3 +41,5 @@ let primaryContact: Contact = {
 }
 
 type ContactName = string
+//COMBINING MULTIPLE TYPES WITH UNION TYPES
+type ContactBirthDate = Date | number | string
